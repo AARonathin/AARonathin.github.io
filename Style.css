@@ -1,7 +1,7 @@
 /* This is a CSS comment */
 body {
     font-family: Arial, sans-serif;
-    background-color: #db33e4dd;
+    background-color: #afafdac9;
 }
 
 h1 {
@@ -11,4 +11,18 @@ h1 {
 .container {
     width: 80%;
     margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
 }
