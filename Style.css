@@ -1,0 +1,163 @@
+/* This is a CSS comment */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c0c0d7;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #000000;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #555;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    flex-grow: 1;
+    margin: 0 15px;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    padding-top: 50px;
+}
+#bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.bio-header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.bio-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.bio-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#bio img {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin-top: 10px;
+}
+
+#Socials, #Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: -250px;
+    margin-bottom: -50px;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 200px;
+}
+
+#Socials h2, #Contact h2 {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+#Socials ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#Socials li {
+    margin: 5px 0;
+}
+
+#Port {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+}
+
+#Port h2 {
+    margin-bottom: 20px;
+}
+footer {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(164, 200, 212);
+    }
+}
