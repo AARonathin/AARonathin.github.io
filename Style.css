@@ -146,3 +146,18 @@ body {
 #Port h2 {
     margin-bottom: 20px;
 }
+footer {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(164, 200, 212);
+    }
+}
