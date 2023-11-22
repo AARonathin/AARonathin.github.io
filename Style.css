@@ -97,6 +97,41 @@ body {
     align-items: flex-start;
     max-width: 80%;
     margin: 0 auto;
+    margin-top: -250px;
+    margin-bottom: -50px;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 200px;
+}
+
+#Socials h2, #Contact h2 {
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+#Socials ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+#Socials li {
+    margin: 5px 0;
+}
+
+#Port {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
     margin-top: 20px;
 }
 
@@ -108,16 +143,6 @@ body {
     max-width: 800px;
 }
 
-#Socials h2, #Contact h2 {
-    text-align: left;
-}
-
-#Socials ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#Socials li {
-    margin: 5px 0;
+#Port h2 {
+    margin-bottom: 20px;
 }
